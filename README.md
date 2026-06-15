@@ -21,7 +21,6 @@ GitHub 仓库：https://github.com/juhaoyang666-hash/chinese-financial-risk-warn
 ```text
 .
 ├── README.md                         # 项目说明与轻量复现指南
-├── 作业要求.txt                       # 课程大作业要求
 ├── requirements.txt                  # Python 依赖
 ├── paper/
 │   ├── main.tex                      # LaTeX 论文源码

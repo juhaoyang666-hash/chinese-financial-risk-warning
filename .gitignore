@@ -1,5 +1,6 @@
 data/raw/
 docs/
+作业要求.txt
 data/processed/*.jsonl
 data/processed/*.csv
 data/processed/*.parquet
