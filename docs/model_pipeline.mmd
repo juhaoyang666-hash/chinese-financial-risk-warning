@@ -1,0 +1,10 @@
+flowchart LR
+  A[金融新闻/社交媒体文本] --> B[数据清洗与FINNSP标签归一化]
+  B --> C1[TF-IDF + LR/SVM]
+  B --> C2[RoBERTa/MacBERT/FinBERT编码器]
+  B --> C3[Qwen3-8B QLoRA]
+  C1 --> D[统一JSON输出]
+  C2 --> D
+  C3 --> D
+  D --> E[二分类指标 + 主体抽取指标 + 错误分析]
+  E --> F[风控早筛与舆情监控讨论]

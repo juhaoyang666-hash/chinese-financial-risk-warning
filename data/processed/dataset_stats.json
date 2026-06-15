@@ -1,0 +1,26 @@
+{
+  "dataset": "Maciel/FinCUGE-Instruction",
+  "task": "FINNSP",
+  "splits": {
+    "train": {
+      "num_rows": 4000,
+      "labels": {
+        "negative_present": 2221,
+        "negative_absent": 1779
+      },
+      "positive_rate": 0.55525,
+      "avg_text_chars": 224.63025,
+      "max_text_chars": 7174
+    },
+    "eval": {
+      "num_rows": 500,
+      "labels": {
+        "negative_present": 259,
+        "negative_absent": 241
+      },
+      "positive_rate": 0.518,
+      "avg_text_chars": 242.29,
+      "max_text_chars": 5572
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "evaluation_type": "qwen3_qlora_counterfactual_robustness",
+  "model_evaluation": true,
+  "model": "Qwen3-8B QLoRA",
+  "adapter_path": "outputs/qwen3-8b-qlora-main/adapter",
+  "num_cases": 400,
+  "entity_switch_accuracy": 0.45,
+  "negative_cue_sensitivity": 0.04,
+  "distractor_resistance": 0.95,
+  "negation_robustness": 0.94,
+  "overall_accuracy": 0.595,
+  "invalid_json_rate": 0.0,
+  "avg_latency_sec": 1.3550387969703297,
+  "distractor_inserted_total": 100,
+  "distractor_inserted_correct": 95,
+  "entity_switch_total": 100,
+  "entity_switch_correct": 45,
+  "negation_context_total": 100,
+  "negation_context_correct": 94,
+  "negative_cue_removed_total": 100,
+  "negative_cue_removed_correct": 4
+}

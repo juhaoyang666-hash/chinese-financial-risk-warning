@@ -1,0 +1,33 @@
+# OpenML 真实信用违约 Tabular 风控模型
+
+使用 OpenML/UCI 真实信用风险数据验证结构化风控分支。
+
+```json
+{
+  "dataset_source": "openml_credit_default",
+  "dataset_used": "openml_credit_default",
+  "openml_data_id": 42477,
+  "openml_name": "default-of-credit-card-clients",
+  "task": "预测信用卡客户下月是否违约",
+  "model": "LGBMClassifier",
+  "num_samples": 30000,
+  "num_features": 23,
+  "label_distribution": {
+    "negative": 23364,
+    "positive": 6636,
+    "positive_rate": 0.2212
+  },
+  "auc": 0.7753076041219331,
+  "ks": 0.4282802115957066,
+  "valid_ks": 0.42704881140693274,
+  "precision": 0.44036697247706424,
+  "recall": 0.6510926902788244,
+  "psi": 0.0024254421382003595,
+  "threshold": 0.20936429312082416,
+  "split": {
+    "train": 18000,
+    "valid": 6000,
+    "test": 6000
+  }
+}
+```

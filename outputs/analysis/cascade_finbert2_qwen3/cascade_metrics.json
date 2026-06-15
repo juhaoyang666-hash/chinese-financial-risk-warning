@@ -1,0 +1,50 @@
+{
+  "encoder_only": {
+    "accuracy": 0.962,
+    "precision": 0.9511278195488722,
+    "recall": 0.9768339768339769,
+    "f1": 0.9638095238095238,
+    "macro_f1": 0.9619047619047618,
+    "entity_precision": 0.0,
+    "entity_recall": 0.0,
+    "entity_f1": 0.0,
+    "entity_tp": 0.0,
+    "entity_fp": 0.0,
+    "entity_fn": 428.0
+  },
+  "llm_all": {
+    "accuracy": 0.972,
+    "precision": 0.9657794676806084,
+    "recall": 0.9806949806949807,
+    "f1": 0.9731800766283525,
+    "macro_f1": 0.9719456868497411,
+    "entity_precision": 0.8208616780045351,
+    "entity_recall": 0.8457943925233645,
+    "entity_f1": 0.8331415420023015,
+    "entity_tp": 362.0,
+    "entity_fp": 79.0,
+    "entity_fn": 66.0,
+    "invalid_json_rate": 0.0,
+    "avg_latency_sec": 2.091848336109659,
+    "llm_call_rate": 1.0,
+    "llm_calls": 500.0
+  },
+  "finbert2_positive_to_qwen3": {
+    "accuracy": 0.97,
+    "precision": 0.9728682170542635,
+    "recall": 0.9691119691119691,
+    "f1": 0.9709864603481625,
+    "macro_f1": 0.9699652798635223,
+    "entity_precision": 0.8337182448036952,
+    "entity_recall": 0.8434579439252337,
+    "entity_f1": 0.8385598141695704,
+    "entity_tp": 361.0,
+    "entity_fp": 72.0,
+    "entity_fn": 67.0,
+    "num_records": 500.0,
+    "llm_calls": 266.0,
+    "llm_call_rate": 0.532,
+    "encoder_negative_pass": 234.0,
+    "encoder_positive_review": 266.0
+  }
+}
