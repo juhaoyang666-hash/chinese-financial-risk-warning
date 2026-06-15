@@ -2,7 +2,8 @@
 
 学号：10225001426  
 姓名：杨巨豪  
-课程大作业题目：基于 Qwen3-8B QLoRA 的中文金融舆情风险智能预警系统
+课程大作业题目：基于 Qwen3-8B QLoRA 的中文金融舆情风险智能预警系统  
+GitHub 仓库：https://github.com/juhaoyang666-hash/chinese-financial-risk-warning
 
 ## 说明
 
