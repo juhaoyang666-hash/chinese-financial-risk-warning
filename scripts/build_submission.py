@@ -18,8 +18,6 @@ INCLUDE_PATTERNS = [
     "src/risk_nlp/*.py",
     "tests/*.py",
     "configs/*.yaml",
-    "docs/*.md",
-    "docs/*.mmd",
     "paper/*.tex",
     "paper/*.pdf",
     "paper/*.docx",

@@ -1,4 +1,5 @@
 data/raw/
+docs/
 data/processed/*.jsonl
 data/processed/*.csv
 data/processed/*.parquet
